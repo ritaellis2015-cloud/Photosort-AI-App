@@ -111,20 +111,16 @@ export default function DuplicatesPage() {
                 </div>
                 <div className="grid grid-cols-3 gap-3 sm:grid-cols-4 md:grid-cols-6">
                   {group.items.map((photo) => (
-                    <button
+                    <PhotoCard
                       key={photo.id}
-                      onClick={() =>
+                      photo={photo}
+                      selected={photo.id === keepId}
+                      badge={photo.id === keepId ? "Keep" : formatBytes(photo.size)}
+                      showFavorite={false}
+                      onOpen={() =>
                         setKeepOverrides((prev) => ({ ...prev, [group.idx]: photo.id }))
                       }
-                      className="text-left"
-                    >
-                      <PhotoCard
-                        photo={photo}
-                        selected={photo.id === keepId}
-                        badge={photo.id === keepId ? "Keep" : formatBytes(photo.size)}
-                        showFavorite={false}
-                      />
-                    </button>
+                    />
                   ))}
                 </div>
               </div>
