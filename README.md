@@ -8,6 +8,15 @@ Photos never leave your browser: everything is processed and stored locally
 with IndexedDB. The only optional network call is the AI Caption Generator,
 which uses Claude's vision API if you provide an API key.
 
+## Quick preview (no install required)
+
+[`preview.html`](./preview.html) is a self-contained, static walkthrough of
+the app — open it directly in a browser (double-click it, or `open
+preview.html`) to click through the whole UI with sample photos, no `npm
+install` needed. The crop/export tools, duplicate cleanup, and cartoon-style
+filters are genuinely functional there too; it's meant for a quick look, not
+a substitute for running the real app against your own photos.
+
 ## Features
 
 | Feature | What it does |
