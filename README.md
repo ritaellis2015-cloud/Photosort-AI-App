@@ -45,6 +45,51 @@ home page, e.g.:
 - "Create a travel collage"
 - "Turn this photo into a cartoon"
 
+## How to use it
+
+**1. Add photos.** Tap or click the upload area (on the home page or in the
+Library) and choose files. On a phone, this opens your device's normal photo
+picker — pick straight from your Camera Roll/Gallery. On a computer, you can
+also drag photos in. Nothing uploads to a server; each photo is analyzed and
+stored right in your browser.
+
+**2. Let it process.** Each photo gets scanned for faces, sharpness, and (if
+present) the date/location saved by your camera or phone. This runs
+automatically after you add photos — no button to press.
+
+**3. Ask for what you want.** Type into the search bar on the home page, in
+plain language — for example:
+
+- "Show me my best selfies"
+- "Find photos from my trip to Georgia"
+- "Create an Instagram Story"
+- "Create a LinkedIn profile image"
+- "Make a passport photo"
+- "Create a travel collage"
+- "Turn this photo into a cartoon"
+
+It'll jump straight to the right tool. You can also just click through the
+sidebar instead — every tool is listed there too (Library, Best Selfies,
+Duplicates, People, Travel, Social Studio, Headshots, Passport/Visa,
+Cartoon & Art, Photo Books, Captions, Brand Vault).
+
+**4. Save the result.** Tools that produce a file (Social Studio, Headshots,
+Passport, Cartoon & Art, Photo Books) have a **Download** or **Export**
+button — tap it and the finished image/PDF saves normally, the same as any
+other download on your phone or computer.
+
+**5. Clean up.** The Duplicate Cleaner finds near-identical shots and lets
+you pick which one to keep before deleting the rest — nothing is deleted
+automatically.
+
+A few things worth knowing:
+- Everything lives in that one browser's local storage. Switching browsers,
+  using private/incognito mode, or clearing browser data starts you over
+  with an empty library.
+- The AI Caption Generator is the only feature that talks to a server (Claude's
+  API) — everything else, including face detection and the cartoon filters,
+  runs entirely on your device.
+
 ## Getting started
 
 ```bash
